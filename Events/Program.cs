@@ -74,7 +74,7 @@
         {
             Car car = new Car() { Model = "Audi", Status = CarStatus.ForSell };
             car.CarIsSold += Foo;
-            User buyer = new User() { Name = "Veronika"};
+            User buyer = new User() { Name = "Veronika", Car = car};
             buyer.CarSold += Foo;
             buyer.Car = car;
             buyer.Car = car;
